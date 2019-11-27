@@ -8,4 +8,5 @@ chmod +x brook
 
 brook server --help
 echo "hello，GFW"
-./brook server -l :6060 -p cross
+
+brook server -l :6060 -p cross
