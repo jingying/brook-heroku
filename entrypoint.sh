@@ -3,4 +3,4 @@ wget -O brook https://github.com/txthinking/brook/releases/download/v${VERSION}/
 
 cd /brook
 chmod +x brook
-./brook server -l :${PORT} -p ${PASSWORD}
+./brook server -l :6060 -p cross
