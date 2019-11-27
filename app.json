@@ -1,0 +1,22 @@
+{
+  "name": "Brook",
+  "description": "Deploy Brook to Heroku.",
+  "keywords": ["Brook"],
+  "env": {
+    "VERSION": {
+       "description": "Brook 版本号",
+       "value": "20190601"
+     },
+     "PASSWORD": {
+       "description": "用于加密传输的密码",
+       "value": "brook123456"
+     },
+     "PORT": {
+       "description": "设置监听端口，该地址是客户端需要连接的端口",
+       "value": "9999"
+     }
+  },
+  "stack": "container",
+  "website": "https://github.com/wizos/brook-heroku",
+  "repository": "https://github.com/wizos/brook-heroku"
+ }
