@@ -7,6 +7,10 @@
        "description": "Brook 版本号",
        "value": "20190601"
      },
+     "COMMAND": {
+       "description": "命令",
+       "value": "ssserver -l :9999 -p password"
+     },
      "PASSWORD": {
        "description": "用于加密传输的密码",
        "value": "brook123456"
