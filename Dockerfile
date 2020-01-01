@@ -1,4 +1,4 @@
-FROM tommy:1.0
+FROM heroku/heroku:18
 
 ENV VERSION=20200102
 ENV PASSWORD=brook123456
