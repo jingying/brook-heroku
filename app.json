@@ -7,10 +7,6 @@
        "description": "Brook 版本号",
        "value": "20200102"
      },
-     "COMMAND": {
-       "description": "命令",
-       "value": "server -l :9999 -p password"
-     },
      "PASSWORD": {
        "description": "用于加密传输的密码",
        "value": "brook123456"
