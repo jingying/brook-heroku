@@ -5,7 +5,7 @@
   "env": {
     "VERSION": {
        "description": "Brook 版本号",
-       "value": "20190601"
+       "value": "20200102"
      },
      "COMMAND": {
        "description": "命令",
