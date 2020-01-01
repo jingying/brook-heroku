@@ -7,4 +7,4 @@ ENV PORT=9999
 RUN wget --no-check-certificate -N https://github.com/txthinking/brook/releases/download/v${VERSION}/brook
 RUN chmod +x brook
 
-CMD exec /brook server -l :$PORT -p $PASSWORD
+CMD /brook server -l :$PORT -p $PASSWORD
