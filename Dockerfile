@@ -1,9 +1,11 @@
-# entrypoint.sh 方式
-FROM heroku/heroku:18
+FROM tommy:1.0
 
-RUN mkdir -m 777 /brook
+ENV VER=20200102
+ENV PASSWORD=brook123456
+ENV PORT=9999
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh 
+RUN apk add --no-cache curl \
+  && curl -sL https://github.com/txthinking/brook/releases/download/${VER}/brook
+  && chmod +x brook
 
-CMD /entrypoint.sh
+CMD /gost -l :$PORT -p $PASSWORD
